@@ -1,0 +1,32 @@
+.image-preview img {
+  width: 200px;
+  border-top: 30px solid skyblue;
+  border-right: 30px solid lightpink;
+  border-bottom: 30px solid lightgreen;
+  border-left: 30px solid #ffefd5;
+}
+
+p > span {
+  color: red;
+}
+#header span {
+  color: pink;
+}
+span {
+  color: green;
+}
+#header *:last-child {
+  color: orange;
+}
+#header span:first-child:hover {
+  color: blue;
+}
+
+table,
+td {
+  border: 1px solid black;
+}
+
+td {
+  padding: 10px;
+}
